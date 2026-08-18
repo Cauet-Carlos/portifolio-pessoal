@@ -14,7 +14,7 @@
   --font-body: 'Inter', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
-  --sidebar-w: 25vw;
+  --sidebar-w: clamp(260px, 26vw, 400px);
   --radius: 4px;
 }
 
