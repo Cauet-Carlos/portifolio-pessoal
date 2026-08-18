@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cauet Farias — Dev. Front-end</title>
+<meta name="description" content="Portfólio de Cauet Carlos Farias, desenvolvedor front-end freelancer. Sites institucionais e landing pages em HTML, CSS e JavaScript puro.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- SIDEBAR FIXA -->
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <div class="avatar">CF</div>
+      <h1 class="sidebar-name">Cauet Farias</h1>
+      <p class="sidebar-role">Desenvolvedor Front-end</p>
+      <span class="status-pill"><span class="status-dot"></span>Disponível para projetos</span>
+    </div>
+
+    <nav class="sidebar-nav" id="sidebar-nav">
+      <a href="#sobre" data-section="sobre" class="is-active">Sobre</a>
+      <a href="#projetos" data-section="projetos">Projetos</a>
+      <a href="#skills" data-section="skills">Stack</a>
+      <a href="#contato" data-section="contato">Contato</a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <a href="mailto:cauetcarlos22@gmail.com" aria-label="E-mail">E-mail</a>
+      <a href="https://wa.me/5597984578046" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+      <a href="https://github.com/Cauet-Carlos" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+    </div>
+  </aside>
+
+  <!-- PAINEL DE CONTEÚDO -->
+  <main class="panel">
+    <div class="panel-main">
+      <section class="panel-section" id="sobre">
+        <p class="section-eyebrow">01 — Sobre</p>
+        <h2 class="section-title">Sites rápidos, responsivos, bem estruturados e sem dependências desnecessárias</h2>
+        <p class="section-text">Acredito que código bom é código que resolve problemas sem criar outros.</p>
+        <p class="section-text">Como freelancer, desenvolvo sites com foco em velocidade, simplicidade e propósito. Evito dependências desnecessárias e soluções prontas quando elas não agregam valor ao projeto.</p>
+        <p class="section-text">Meu foco está no essencial: HTML, CSS e JavaScript, código limpo e experiências rápidas, responsivas e pensadas para funcionar de verdade.</p>
+        
+        <div class="stats-row">
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">projetos publicados</span></div>
+          <div class="stat"><span class="stat-num">100%</span><span class="stat-label">HTML/CSS/JS puro</span></div>
+          <div class="stat"><span class="stat-num">100%</span><span class="stat-label">sites responsivos</span></div>
+          <div class="stat"><span class="stat-num">X+</span><span class="stat-label">interfaces desenvolvidas</span></div>
+        </div>
+      </section>
+
+      <section class="panel-section" id="projetos">
+        <p class="section-eyebrow">02 — Projetos</p>
+        <h2 class="section-title">O que eu já construí</h2>
+
+        <article class="projeto-row" data-project="corte">
+          <div class="projeto-header">
+            <span class="projeto-num">01</span>
+            <div class="projeto-info">
+              <h3>Corte &amp; Navalha</h3>
+              <p>Landing page para barbearia fictícia, inspirada na estética vintage de barbearias tradicionais. Paleta escura em preto, vinho e dourado, tipografia Bebas Neue combinada com Source Serif 4, e formulário de agendamento integrado ao Netlify Forms.</p>
+              <div class="projeto-tech">
+                <span>HTML</span><span>CSS</span><span>JS</span><span>Netlify Forms</span>
+              </div>
+            </div>
+          </div>
+          <img src="img/preview-corte-e-navalha.png" alt="Prévia do site Corte & Navalha" class="projeto-shot">
+          <div class="projeto-links">
+            <a href="https://corte-e-navalha.netlify.app/" target="_blank" rel="noopener" class="projeto-btn projeto-btn-primary">Ver site ↗</a>
+            <a href="https://github.com/Cauet-Carlos/barbearia-corte-e-navalha" target="_blank" rel="noopener" class="projeto-btn">Ver código ↗</a>
+          </div>
+        </article>
+
+        <article class="projeto-row" data-project="xpb">
+          <div class="projeto-header">
+            <span class="projeto-num">02</span>
+            <div class="projeto-info">
+              <h3>Xavier, Peres &amp; Batista</h3>
+              <p>Site institucional multi-página para um escritório de advocacia fictício, com identidade clara inspirada em documentos jurídicos. Cinco páginas (Início, Escritório, Áreas de Atuação, Equipe e Contato), CSS organizado com um arquivo base compartilhado e um arquivo específico por página.</p>
+              <div class="projeto-tech">
+                <span>HTML</span><span>CSS</span><span>JS</span><span>Netlify Forms</span>
+              </div>
+            </div>
+          </div>
+          <img src="img/preview-xpb.png" alt="Prévia do site Xavier, Peres & Batista" class="projeto-shot">
+          <div class="projeto-links">
+            <a href="https://xpb-advocacia.netlify.app/" target="_blank" rel="noopener" class="projeto-btn projeto-btn-primary">Ver site ↗</a>
+            <a href="https://github.com/Cauet-Carlos/xpb-advocacia" target="_blank" rel="noopener" class="projeto-btn">Ver código ↗</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel-section" id="skills">
+        <p class="section-eyebrow">03 — Stack</p>
+        <h2 class="section-title">Ferramentas que eu utilizo</h2>
+        <div class="skills-list">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git</span>
+          <span>GitHub</span><span>Netlify</span><span>VS Code</span><span>Design Responsivo</span>
+        </div>
+      </section>
+
+      <section class="panel-section" id="contato">
+        <p class="section-eyebrow">04 — Contato</p>
+        <h2 class="section-title">Vamos conversar e montar seu projeto</h2>
+        <p class="section-text">Estou disponível para novos projetos, sejam eles sites institucionais, landing pages ou pequenos ajustes em projetos que já existem. Trabalho de forma direta: você me conta o que precisa, eu retorno com um prazo e um valor claro antes de começar qualquer coisa.</p>
+        <p class="section-text">Prefiro conversas objetivas a formulários longos — por isso escolhi deixar os canais de contato aqui embaixo em vez de um formulário. Escolhe o que for mais rápido pra você e me chama.</p>
+
+        <div class="contato-links">
+          <a href="mailto:cauetcarlos22@gmail.com" class="contato-item">
+            <span class="contato-label">E-mail</span>
+            <span class="contato-value">cauetcarlos22@gmail.com</span>
+            <span class="contato-arrow">→</span>
+          </a>
+          <a href="https://wa.me/5597984578046" target="_blank" rel="noopener" class="contato-item">
+            <span class="contato-label">WhatsApp</span>
+            <span class="contato-value">(97) 98457-8046</span>
+            <span class="contato-arrow">→</span>
+          </a>
+          <a href="https://github.com/Cauet-Carlos" target="_blank" rel="noopener" class="contato-item">
+            <span class="contato-label">GitHub</span>
+            <span class="contato-value">github.com/Cauet-Carlos</span>
+            <span class="contato-arrow">→</span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="panel-footer">
+        <p>&copy; 2026 Cauet Carlos Farias.</p>
+      </footer>
+    </div>
+  </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
